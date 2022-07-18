@@ -130,12 +130,7 @@ for x in range(1,281): #store all the parking spots in different day arrays + ge
     elif x==265: #day 14 general parking space from 265-279
         count=0
         d=14
-        parking='g'
-#testing purposes
-for y in range(0,20):
-     parkingStatus[y]="Name:John" +" car Licence number: N123W"
-     
- #remove above       
+        parking='g'   
 numberCustomer=int(input('How many customers? :'))
 #to store the number of customers making a booking
 count=0 #to count each customer upo data entry
